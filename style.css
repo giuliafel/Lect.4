@@ -1,0 +1,119 @@
+
+.container{
+	width: 600px;
+	height: 400px;
+	position: relative;
+    margin: auto;	
+	border: 1px solid #D04FBF;
+    align-items: center;
+    align-content: center;
+	background: #EB88DE;
+}
+
+.calc{
+	width: 360px;
+	float: left;
+	height: 400px;
+	border: none;
+	margin: 2;
+}
+
+.journal{
+	width:  220px;
+	float: left;
+	height: 400px;
+	border:none;
+    margin: 2;
+    text-align-last: center;
+	
+}
+
+.titleJournal{
+	font-size: 1em;
+    font-style: initial;
+    text-align: center;
+	width: 100%;
+	float: left;
+	height: 8%;
+	margin: 1;
+}
+
+.textCalcP{
+	margin: 6px;
+}
+
+.textCalc{
+    font-size: 1.5em;
+    font-style: initial;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	width: 98%;
+	float: left;
+	text-align: right;
+	height: 8%;
+	margin: 2;
+	border:none;
+    background: #EB88DE;
+}
+
+.buttons{
+	width: 100%;
+	float: left;
+	height: 92%;
+	margin: 2;
+	border: none;
+}
+
+.bodyJournal{
+    font-size: 1em;
+    font-style: initial;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+	text-align: left;
+	font-size: 1.1em;
+	width: 90%;
+	float: left;
+	height: 90%;
+	margin: 2;
+	background: #EB88DE;
+}
+
+.butRaw{
+	width: 97.4%;
+	float: left;
+	height: 18%;
+	margin: 1;
+    border: solid 1px #D04FBF;
+    text-align: center;
+    background: greenyellow; 
+}
+
+.but1,.but2,.but3,.but3,.but4,.but5,.but6,.but7,.but8,.but9,.butAdd,.butSub,.butMul,.butDiv,.but0,.butC,.butDot{
+	width: 23.5%;
+	float: left;
+	height: 18%;
+	margin: 1;
+    border:solid 1px #D04FBF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.butRaw,.but1,.but2,.but3,.but3,.but4,.but5,.but6,.but7,.but8,.but9,.butAdd,.butSub,.butMul,.butDiv,.but0,.butC,.butDot{
+    font-size: 1.5em;
+    font-style: initial;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+	background: greenyellow;
+}
+.startText {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: initial;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*
+.butC:hover,.but1:hover,.but2:hover,.but3:hover,.but3:hover,.but4:hover,.but5:hover,.but6:hover,.but7:hover,
+.but8:hover,.but9:hover,.butAdd:hover,.butSub:hover,.butMul:hover,.butDiv:hover,.but0:hover,.butRaw:hover,.butDot:hover {
+    outline: 1px solid gold;
+   }*/
